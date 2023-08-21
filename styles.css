@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:wght@300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+}
+
+.nav-center {
+  display: flex;
+  padding: 35px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+  background-color: whitesmoke;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: #052627;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #008080;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+h2 {
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+  height: 20px;
+  width: 600px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 0.5em;
+  align-items: center;
+  font-weight: 400;
+}
+
+.color {
+  color: #1e90ff;
+}
+
+.btn {
+  padding: 15px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background:linear-gradient(to right ,#1f3581,#87ceeb );
+  color: white;
+  border: 2px solid black;
+}
+
+@media(min-width:412px){
+
+}
