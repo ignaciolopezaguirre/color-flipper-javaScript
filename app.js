@@ -7,7 +7,7 @@ const color = document.querySelector(".color");
 
 // eventListeners
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", function doSomething () {
   //get random number between 0-3 colors [0]
   const randomNumber = getRandomNumber();
   document.body.style.backgroundColor = colors[randomNumber]; // select the element we want to the style to change
